@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-native-country-picker-modal/precache-manifest.2ffa31f2230d09f0884cceeaa8b05feb.js"
+  "/react-native-country-picker-modal/precache-manifest.537f799b4bb97bb9e3e19b933c0e1fab.js"
 );
 
 workbox.clientsClaim();
