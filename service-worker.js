@@ -14,9 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-native-country-picker-modal/precache-manifest.1464b31994c9dc06339672ae097717e4.js"
+  "/react-native-country-picker-modal/precache-manifest.f5fa698c08a64eb02cdb362874fb853d.js"
 );
 
+workbox.skipWaiting();
 workbox.clientsClaim();
 
 /**
@@ -28,7 +29,9 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/react-native-country-picker-modal/index.html", {
+workbox.routing.registerNavigationRoute("index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
+
+workbox.routing.registerRoute(/^https?.*/, workbox.strategies.networkFirst({ "cacheName":"offlineCache", plugins: [new workbox.expiration.Plugin({"maxEntries":200,"purgeOnQuotaError":false})] }), 'GET');
