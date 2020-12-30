@@ -1274,6 +1274,7 @@
       "spa": "China",
       "fin": "Kiina",
       "est": "Hiina",
+      "zho": "中国",
       "pol": "Chiny",
       "urd": "چین",
       "kor": "중국"
@@ -2696,6 +2697,7 @@
       "spa": "Hong Kong",
       "fin": "Hongkong",
       "est": "Hongkong",
+      "zho": "香港",
       "pol": "Hongkong",
       "urd": "ہانگ کانگ",
       "kor": "홍콩"
@@ -3531,6 +3533,7 @@
       "spa": "Macao",
       "fin": "Macao",
       "est": "Macau",
+      "zho": "澳门",
       "pol": "Makau",
       "urd": "مکاؤ",
       "kor": "마카오"
@@ -5421,6 +5424,7 @@
       "spa": "Singapur",
       "fin": "Singapore",
       "est": "Singapur",
+      "zho": "新加坡",
       "pol": "Singapur",
       "urd": "سنگاپور",
       "kor": "싱가포르"
@@ -5934,6 +5938,7 @@
       "fin": "Taiwan",
       "est": "Taiwan",
       "pol": "Tajwan",
+      "zho": "台湾",
       "urd": "تائیوان",
       "kor": "대만"
     }
